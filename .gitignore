@@ -53,17 +53,6 @@ SourceArt/**/*.tga
 Binaries/*
 Plugins/**/Binaries/*
 
-# Builds
-Build/*
-
-# Whitelist PakBlacklist-<BuildConfiguration>.txt files
-!Build/*/
-Build/*/**
-!Build/*/PakBlacklist*.txt
-
-# Don't ignore icon files in Build
-!Build/**/*.ico
-
 # Built data for maps
 *_BuiltData.uasset
 
