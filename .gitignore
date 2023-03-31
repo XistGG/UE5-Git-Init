@@ -49,6 +49,9 @@
 Binaries/*
 Plugins/**/Binaries/*
 
+# Automatically generated Build files
+Build/Scripts/obj/*
+
 # Built data for maps
 *_BuiltData.uasset
 
