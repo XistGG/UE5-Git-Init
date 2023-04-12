@@ -67,3 +67,6 @@ Plugins/**/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+# Ignore files added by Finder on Mac
+.DS_Store
