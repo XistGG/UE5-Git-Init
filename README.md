@@ -19,8 +19,8 @@ those are important for UE5 projects to function correctly on different platform
 ```powershell
 $GitInitRepoUrl = "https://raw.githubusercontent.com/XistGG/UE5-Git-Init/main"
 
-curl "$GitInitRepoUrl/.gitignore" > .gitignore
-curl "$GitInitRepoUrl/.gitattributes" > .gitattributes
+curl "$GitInitRepoUrl/.gitignore" -o .gitignore
+curl "$GitInitRepoUrl/.gitattributes" -o .gitattributes
 ```
 
 
