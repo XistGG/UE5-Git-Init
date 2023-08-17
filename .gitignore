@@ -51,6 +51,7 @@ Plugins/**/Binaries/*
 
 # Automatically generated Build files
 Build/Scripts/obj/*
+Build/Scripts/*.csproj.props
 
 # Built data for maps
 *_BuiltData.uasset
