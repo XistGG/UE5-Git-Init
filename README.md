@@ -23,6 +23,8 @@ curl "$GitInitRepoUrl/.gitignore" > .gitignore
 curl "$GitInitRepoUrl/.gitattributes" > .gitattributes
 ```
 
+You can also copy the `.editorconfig`, which is optional, though encouraged.
+
 
 ## Example Usage
 
