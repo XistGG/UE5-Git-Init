@@ -19,11 +19,16 @@ those are important for UE5 projects to function correctly on different platform
 ```powershell
 $GitInitRepoUrl = "https://raw.githubusercontent.com/XistGG/UE5-Git-Init/main"
 
+# REQUIRED: Copy .gitignore and .gitattributes
 curl "$GitInitRepoUrl/.gitignore" > .gitignore
 curl "$GitInitRepoUrl/.gitattributes" > .gitattributes
-```
 
-You can also copy the `.editorconfig`, which is optional, though encouraged.
+# OPTIONAL: Copy Github/Rider/VS .editorconfig
+curl "$GitInitRepoUrl/.editorconfig" > .editorconfig
+
+# OPTIONAL: Copy MIT LICENSE (free use for anyone including commercial)
+curl "$GitInitRepoUrl/LICENSE" > LICENSE
+```
 
 
 ## Example Usage
