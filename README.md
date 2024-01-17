@@ -20,14 +20,14 @@ those are important for UE5 projects to function correctly on different platform
 $GitInitRepoUrl = "https://raw.githubusercontent.com/XistGG/UE5-Git-Init/main"
 
 # REQUIRED: Copy .gitignore and .gitattributes
-curl "$GitInitRepoUrl/.gitignore" > .gitignore
-curl "$GitInitRepoUrl/.gitattributes" > .gitattributes
+curl -O $GitInitRepoUrl/.gitignore
+curl -O $GitInitRepoUrl/.gitattributes
 
 # OPTIONAL: Copy Github/Rider/VS .editorconfig
-curl "$GitInitRepoUrl/.editorconfig" > .editorconfig
+curl -O $GitInitRepoUrl/.editorconfig
 
 # OPTIONAL: Copy MIT LICENSE (free use for anyone including commercial)
-curl "$GitInitRepoUrl/LICENSE" > LICENSE
+curl -O $GitInitRepoUrl/LICENSE
 ```
 
 
