@@ -36,6 +36,8 @@ curl -O $GitInitRepoUrl/LICENSE
 ```powershell
 git init
 
+git lfs install
+
 git add .gitignore .gitattributes
 
 git commit -m "Initialize UE5 Git Repo"
